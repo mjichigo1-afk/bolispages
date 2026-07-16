@@ -6,9 +6,8 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "npm run build && wrangler dev",
-    "deploy": "npm run build && wrangler deploy",
-    "generate-types": "wrangler types"
+    "preview": "npm run build && wrangler pages dev dist/client",
+    "deploy": "npm run build && wrangler pages deploy dist/client --project-name=volis-landing"
   },
   "repository": {
     "type": "git",
