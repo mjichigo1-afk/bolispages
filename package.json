@@ -1,0 +1,24 @@
+{
+  "name": "volis-landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "deploy": "astro build && wrangler pages deploy dist/client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-segunda:mjichigo1-afk/bolispages.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@astrojs/cloudflare": "^14.1.3",
+    "astro": "^7.1.0"
+  }
+}

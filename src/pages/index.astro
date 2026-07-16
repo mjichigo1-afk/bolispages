@@ -1,0 +1,131 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="🍬 Bolis — Dulces Fríos para el Calor">
+  <nav>
+    <div class="nav-logo">🍬 Bolis</div>
+    <ul class="nav-links">
+      <li><a href="#productos">Sabores</a></li>
+      <li><a href="#hielos">Hielos</a></li>
+      <li><a href="#domicilio">Domicilios</a></li>
+      <li><a href="#pedir">Pedir</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-badge"><span class="dot"></span> ¡Refresca tu verano!</div>
+    <h1>
+      <span class="line1">Los mejores</span>
+      <span class="line2">Bolis</span>
+    </h1>
+    <p>Dulces fríos artesanales para combatir el calor. Sabores irresistibles que te van a encantar.</p>
+    <div class="hero-price">
+      <span class="currency">$</span>
+      <span class="amount">1.000</span>
+      <span class="unit">c/u</span>
+    </div>
+    <a href="https://wa.me/573207212330?text=Hola!%20Quiero%20hacer%20un%20pedido%20de%20Bolis%20🍬" class="cta-btn" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      Pedir por WhatsApp
+    </a>
+    <div class="scroll-hint">
+      <svg viewBox="0 0 24 24"><path d="M12 5v14M5 12l7 7 7-7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </div>
+  </section>
+
+  <section class="section" id="productos">
+    <div class="section-title"><h2>Nuestros <span class="highlight">Sabores</span></h2></div>
+    <p class="section-subtitle">6 sabores irresistibles — todos a solo $1.000</p>
+    <div class="products-grid">
+      <div class="product-card flavor-arequipe">
+        <img src="/arequipe_n_rot.png" alt="Boli de Arequipe" class="product-img" />
+        <div class="product-name">Arequipe</div>
+        <div class="product-desc">Dulce caramelo cremoso</div>
+        <div class="product-price-tag">$1.000</div>
+      </div>
+      <div class="product-card flavor-bocadillo">
+        <img src="/bocadillo_n_rot.png" alt="Boli de Bocadillo" class="product-img" />
+        <div class="product-name">Bocadillo</div>
+        <div class="product-desc">Guayaba en su punto justo</div>
+        <div class="product-price-tag">$1.000</div>
+      </div>
+      <div class="product-card flavor-coco">
+        <img src="/coco_n_rot.png" alt="Boli de Coco" class="product-img" />
+        <div class="product-name">Coco</div>
+        <div class="product-desc">Frescura tropical natural</div>
+        <div class="product-price-tag">$1.000</div>
+      </div>
+      <div class="product-card flavor-cola">
+        <img src="/cola_n_rot.png" alt="Boli de Cola" class="product-img" />
+        <div class="product-name">Cola</div>
+        <div class="product-desc">El sabor de siempre, helado</div>
+        <div class="product-price-tag">$1.000</div>
+      </div>
+      <div class="product-card flavor-maraculla">
+        <img src="/maracuya_n_rot.png" alt="Boli de Maracuyá" class="product-img" />
+        <div class="product-name">Maracuyá</div>
+        <div class="product-desc">Ácido y refrescante</div>
+        <div class="product-price-tag">$1.000</div>
+      </div>
+      <div class="product-card flavor-oreo">
+        <img src="/oreo_n_rot.png" alt="Boli de Oreo" class="product-img" />
+        <div class="product-name">Oreo</div>
+        <div class="product-desc">Cookies &amp; cream cremoso</div>
+        <div class="product-price-tag">$1.000</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section ice-section" id="hielos">
+    <div class="section-title"><h2>🧊 También vendemos <span class="highlight">Hielos</span></h2></div>
+    <p class="section-subtitle">Bolsas de hielo para tu reunión o negocio</p>
+    <div class="ice-card">
+      <div class="ice-cubes"><div class="ice-cube"></div><div class="ice-cube"></div><div class="ice-cube"></div></div>
+      <div class="ice-title">Bolsa de Hielos</div>
+      <div class="ice-price">$500</div>
+      <div class="ice-desc">Perfecta para tus fiestas, reuniones o negocio</div>
+    </div>
+  </section>
+
+  <section class="section delivery-section" id="domicilio">
+    <div class="section-title"><h2>🏍️ <span class="highlight">Domicilios</span></h2></div>
+    <p class="section-subtitle">¡Te llevamos los Bolis hasta tu puerta!</p>
+    <div class="delivery-card">
+      <div class="delivery-icon">📦</div>
+      <h3>Condiciones de Venta</h3>
+      <ul class="conditions">
+        <li><span class="check">✓</span> Pedido mínimo por domicilio</li>
+        <li><span class="check">✓</span> Consulta cobertura de tu zona</li>
+        <li><span class="check">✓</span> El costo de domicilio varía según distancia</li>
+        <li><span class="check">✓</span> Pago contra entrega disponible</li>
+        <li><span class="check">✓</span> Horarios de entrega: 10am – 7pm</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="order-section" id="pedir">
+    <h2>¿Se te antojó? 🤤</h2>
+    <p>Escríbenos ahora y haz tu pedido. ¡Te respondemos al instante!</p>
+    <a href="https://wa.me/573207212330?text=Hola!%20Quiero%20hacer%20un%20pedido%20de%20Bolis%20🍬" class="big-cta" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      Pedir Ahora por WhatsApp
+    </a>
+    <span class="phone-number">📱 320 721 02330</span>
+  </section>
+
+  <footer><p>🍬 Bolis — Hechos con amor para refrescar tu día &copy; 2026</p></footer>
+
+  <a href="https://wa.me/573207212330?text=Hola!%20Quiero%20información%20sobre%20los%20Bolis%20🍬" class="wa-float" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+    <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script>
+    window.addEventListener('scroll', () => {
+      const nav = document.querySelector('nav');
+      if (nav) {
+        nav.style.background = window.scrollY > 50 ? 'rgba(10,10,26,0.85)' : 'rgba(10,10,26,0.6)';
+      }
+    }, { passive: true });
+  </script>
+</Layout>
